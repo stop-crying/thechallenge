@@ -279,10 +279,11 @@
   margin: auto 0;
   border-radius: 8px;
 }
-.bar-width p {
-  width: 14.4px;
+#bar-p {
+  width: 0%;
   background-color: black;
   height: 4px;
+  transition: all ease-in-out;
 }
 .setup-bot {
   border: none;
@@ -532,7 +533,7 @@
     width: 100%;
   }
   .text-sub p {
-    width: 50%;
+    width: 40%;
   }
   .sub-one img {
     display: none;
@@ -726,8 +727,8 @@
     margin: auto 0;
     border-radius: 8px;
   }
-  .bar-width p {
-    width: 14.4px;
+  #bar-p {
+    width: 0%;
     background-color: black;
     height: 4px;
   }
